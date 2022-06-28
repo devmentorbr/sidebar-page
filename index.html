@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <!-- 
-    Arquivo inicial desafio Projeto SideBar | DevMentor
-    > www.devmentor.com.br
-  -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Max Corretora - DevMentor BR">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
   <!-- Carregando a fonte roboto para usar no projeto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"> 
   <title>Projeto SideBar | DevMentor</title>
 </head>
 <body>
+  <input type="checkbox" id="menu-toggle" />
+  <label for="menu-toggle" class="menu-icon"><i class="fa fa-bars"></i></label>
 
-  <h1>Projeto Sidebar</h1>
-  <!-- Tag para usar o ícone do menu 👇 -->
-  <i class="fa fa-bars"></i> 
-
-
-  <script src="script.js"></script>
+  <div class="content-container">
+    <div class="site-title">
+      <h1>Dev Mentor</h1>
+    </div>
+    <div class="content">
+      <h1>Desafio página SideBar</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget nulla mollis, efficitur urna nec, viverra dolor. Nulla facilisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent efficitur finibus eros sit amet sagittis. Ut sollicitudin sodales neque et volutpat. Curabitur dictum ante vel fermentum volutpat. Curabitur ac neque et erat viverra egestas.</p>
+    </div>
+  </div>
+  
+  <div class="slideout-sidebar">
+    <ul>
+      <li>Home</li>
+      <li>Sobre</li>
+      <li>Blog</li>
+      <li>Contatos</li>
+    </ul>
+  </div>
 </body>
 </html>
