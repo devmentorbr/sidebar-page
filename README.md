@@ -10,14 +10,14 @@ Obrigado por conferir este desafio e usar nossa plataforma DevMentor.
 
 ## Desafio
 
-Seu desafio é construir a uma página com Sidebar funcional.
+Seu desafio é construir uma página com a Sidebar lateral colapsável.
 
 Você pode usar qualquer ferramenta além de HTML, CSS e JavaScript que desejar para ajudá-lo a completar o desafio. Então, se você tem algo que gostaria de praticar, sinta-se à vontade para tentar.
 
 Funcionalidades que seu projeto deve ter:
 
 - Ao acessar a página inicial deve ter o ícone do menu ao lado esquerdo da tela.
-- Quando usuário clicar em cima do ícone do menu deverá abrir a sidebar e ficar aberta até o mesmo clique novamente no ícone do menu.
+- Quando usuário clicar em cima do ícone do menu deverá abrir a sidebar e ficar aberta até que o mesmo clique novamente no ícone do menu.
 - Quando o usuário estiver no celular aplicar o layout da sidebar com largura 100% da tela.
 - Seu layout deve ser responsivo a diferentes tamanhos de telas e tentando deixar o mais parecido possível com nosso layout fornecido.
 
